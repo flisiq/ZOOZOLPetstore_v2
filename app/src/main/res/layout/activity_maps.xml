@@ -1,0 +1,269 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.zoozolpetstore.MapsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="@dimen/medium_marginPadding"
+        android:text="@string/zoozol_header"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/header_fontSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:layout_width="@dimen/null_marginPadding"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/small_marginPadding"
+            android:layout_marginRight="@dimen/small_marginPadding"
+            android:layout_weight="4"
+            android:contentDescription="@string/storefront"
+            android:scaleType="centerCrop"
+            android:src="@drawable/zoozol" />
+
+        <LinearLayout
+            android:layout_width="@dimen/null_marginPadding"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_perm_identity_green_500_18dp"
+                android:drawableStart="@drawable/ic_perm_identity_green_500_18dp"
+                android:gravity="center_vertical"
+                android:text="@string/name"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_pin_drop_green_500_18dp"
+                android:drawableStart="@drawable/ic_pin_drop_green_500_18dp"
+                android:gravity="center_vertical"
+                android:text="@string/address"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_access_time_green_500_18dp"
+                android:drawableStart="@drawable/ic_access_time_green_500_18dp"
+                android:gravity="center_vertical"
+                android:text="@string/opening_time"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_local_phone_green_500_18dp"
+                android:drawableStart="@drawable/ic_local_phone_green_500_18dp"
+                android:gravity="center_vertical"
+                android:text="@string/_723_889_232"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_facebook_box"
+                android:drawableStart="@drawable/ic_facebook_box"
+                android:gravity="center_vertical"
+                android:text="@string/zoozollodz"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/we_offer"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/high_quality_and_delicious_food_for_your_pet" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/durable_and_safe_toys_that_provide_hours_of_fun_for_your_little_friend" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/reliable_eqipment_and_furniture_like_playpensand_transport_cages" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/why_us"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/we_are_in_your_neighbourhood" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/we_have_large_base_of_local_customers_check_our_faceboock" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/satisfaction_or_moneyback_program" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/our_discounts"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/_10_for_your_first_purchase" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/_10_for_customers_with_happy_shopping_card" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_check_circle_green_500_18dp"
+                    android:drawableStart="@drawable/ic_check_circle_green_500_18dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/we_also_offer_special_deals_for_families" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

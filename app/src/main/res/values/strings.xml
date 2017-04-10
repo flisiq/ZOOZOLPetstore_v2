@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ZOOZOL Pet Store</string>
+    <string name="title_activity_maps">ZOOZOL Pet Store</string>
+    <string name="zoozol_header">Zoozol Pet Store</string>
+    <string name="name">Jan Kowalski</string>
+    <string name="address">Łazowskiego 52 St.</string>
+    <string name="opening_time">08:00&#8211;17:00</string>
+    <string name="storefront">storefront</string>
+    <string name="zoozollodz">\@zoozollodz</string>
+    <string name="_723_889_232">723 889 232</string>
+    <string name="we_offer">We offer:</string>
+    <string name="high_quality_and_delicious_food_for_your_pet">High quality and delicious food for your pet!</string>
+    <string name="durable_and_safe_toys_that_provide_hours_of_fun_for_your_little_friend">Durable and safe toys that provide hours of fun for your little friend!</string>
+    <string name="reliable_eqipment_and_furniture_like_playpensand_transport_cages">Reliable eqipment and furniture like playpens and transport cages!</string>
+    <string name="why_us">Why us?</string>
+    <string name="we_are_in_your_neighbourhood">We are in your neighbourhood!</string>
+    <string name="we_have_large_base_of_local_customers_check_our_faceboock">We have large base of local customers, check our faceboock!</string>
+    <string name="satisfaction_or_moneyback_program">\"Satisfaction or moneyback program!\"</string>
+    <string name="our_discounts">Our discounts:</string>
+    <string name="_10_for_your_first_purchase">10% for your first purchase!</string>
+    <string name="_10_for_customers_with_happy_shopping_card">10% for customers with \"Happy Shopping\" card!</string>
+    <string name="we_also_offer_special_deals_for_families">We also offer special deals for families!</string>
+</resources>

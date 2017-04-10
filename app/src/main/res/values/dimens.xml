@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="null_marginPadding">0dp</dimen>
+    <dimen name="header_fontSize">30sp</dimen>
+    <dimen name="medium_marginPadding">15sp</dimen>
+    <dimen name="small_marginPadding">8dp</dimen>
+</resources>
